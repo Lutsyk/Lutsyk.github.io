@@ -1,63 +1,60 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
-<head>
-<title> Messenger</title>
-<link rel="stylesheet"  href="http://snf-537850.vm.okeanos.grnet.gr/messenger/style.css"/>
-</head>
-
-<body>
-
-<h1>  #ShowMeYourChat </h1>
-
-<div id="login">
-<br>
-<h2>Welcome to our live chat</h2>
-	<form id="login_form" >
-		Give a username: <input id="login_text" autofocus></input>
-		<input id="login_submit" type="submit" value="ok"></input>
-	</form>
-	<div id="notify"></div>
-</div>
-
-<div id="main">
-
-<div id="right_side">
-  <h2>online users</h2>
- 	 <ol id="user_list">
-  	</ol>
-
-</div>
+	<head>
+		<meta charset="utf-8">
+		<title> test </title>
+	</head>
 
 
-<div id="left_side">
-	<div id="chat_title">Chat area :)</div>
-  <div id="chat">
-  <ul id='chatMessages'></ul>  
-  </div>
+	<body>
+		<img src="2.jpg" height="620" width="940">
+		<br><center><button><b>Нажми</b></center></button><br>
 
-<div id='typing_info'>  </div>
+		<form>
 
-  <form id="send-message">
-	   <input id="message" placeholder="type a message"  autocomplete="off"></input>
-	   <input id="message_submit" type="submit" value="send" ></input>
-  </form>
-<br>
-</div>
+			<label for="Name">Имя</label>
+			<input type="text" name="Name" id="Name">
+			<br />
+			<label for="Password">Пароль</label>
+			<input type="password" name="Password" id="Password">
+			<br />
+			<lable for="Date">Дата</lable>
+			<input type="date" name="Date" id="Date">
+			<br />
+			<ul>
+				<li>test</li>
+				<li>test</li>
+			</ul>
 
-</div>
+			<ol>
+				<li>test</li>
+				<li>test</li>
+			</ol>
+
+		</form>
+
+		<script type="text/javascript">
+
+		var Zakaz = prompt("Введите автор, назва, видавництво, рік видання, ціна");
+		var Razdel = Zakaz.split(', ');
+
+		document.write("Vash Avtor = "+Razdel[0])
+	  document.write('<br/>')
+		document.write("Vasha Nazva = "+Razdel[1])
+		document.write('<br/>')
+		document.write("Vasha Vidavnitstvo = "+Razdel[2])
+		document.write('<br/>')
+		document.write("Vasha Ric Vidannja = "+Razdel[3])
+		document.write('<br/>')
+		document.write("Vasha zina = "+Razdel[4])
 
 
-<script src="http://snf-537850.vm.okeanos.grnet.gr/messenger/functions.js"></script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="/socket.io/socket.io.js"></script>
-<script src="http://snf-537850.vm.okeanos.grnet.gr/messenger/index.js"></script>
+
+		</script>
 
 
-<audio  id="chatNotification">
-<source src="http://snf-537850.vm.okeanos.grnet.gr/messenger/notification.mp3" type="audio/mpeg">
-</audio>
 
-</body>
+	</body>
 
 </html>
