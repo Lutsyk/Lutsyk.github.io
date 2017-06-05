@@ -1,0 +1,1 @@
+document.documentElement.id="js";(function(b,a){b.ajaxSetup({scriptCharset:"utf-8"});b(function(){BEM.DOM.scope=b("body");BEMDOM=BEM.DOM})})(jQuery,window.Lego);

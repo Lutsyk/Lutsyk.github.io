@@ -1,0 +1,128 @@
+﻿.ul {
+    list-style: none;
+    margin: 0;
+    padding:  0; 
+}
+
+.buttons li {
+   display:inline-block;
+   width:  200px;
+   height:  32px;
+   cursor: pointer;
+   border-radius: 10px;
+   margin:  20px;
+   margin-top: 40px;
+   
+}
+
+.buttons .button1 {
+    background-position: 100px 0;
+    padding:10px;
+    text-align: center;
+    font-size: 25px;
+   color: #800040;
+   box-shadow: 2px 1px 1px 8px; 
+}
+
+.buttons .button1:hover {
+    box-shadow: 1px 1px 1px 1px; 
+}
+.buttons .button1:active {
+    box-shadow: 1px 1px 1px 1px; 
+}
+
+.buttons .button2 {
+     background-position: 100px 0;
+    padding:10px;
+    text-align: center;
+    font-size: 25px;
+   color: #008000;
+   box-shadow: 2px 1px 1px 8px; 
+}
+
+.buttons .button2:hover {
+    box-shadow: 1px 1px 1px 1px; 
+}
+.buttons .button2:active {
+    box-shadow: 1px 1px 1px 1px; 
+}
+
+.buttons .button3 {
+    background-position: 100px 0;
+    padding:10px;
+    text-align: center;
+    font-size: 25px;
+   color: #ff0000;
+   box-shadow: 2px 1px 1px 8px; 
+}
+
+.buttons .button3:hover {
+    box-shadow: 1px 1px 1px 1px; 
+}
+.buttons .button3:active {
+    box-shadow: 1px 1px 1px 1px; 
+}
+.buttom {
+      font-size: 30px;
+    display: inline-block;
+    margin-right: 25px; 
+    -webkit-transform: skewX(30deg);
+    padding: 1px 2px;
+    color: #0000a0;
+    border:1px solid url(new/6529.jpg);
+    padding:12px 5px 5px 5px;
+     font-weight:bold;
+     cursor: pointer;
+     border-radius: 5px active;
+}
+.buttom:hover {
+    box-shadow: 1px 1px 1px 1px; 
+}
+.buttom:active {
+    box-shadow: 1px 1px 1px 1px; 
+}
+
+.az {
+    padding: 0;
+    background-color: white;
+    height:150px;
+    width: 850px;
+    background-color:#ccc;
+    padding: 10px;
+}
+
+.main{
+    width: 1400px;
+    height: auto;
+    text-align: center;
+    }
+.ay{
+    width: 1400px;
+    height: auto;
+    text-align: center;
+}
+.one{
+    color:#ff0000;
+    font-size:40px;
+    font-style:"New Time Roman", Arial;
+    font-weight:bold;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-decoration: inherit;
+    padding-top: auto;
+}
+
+.ax {
+  border-radius: 15px solid #ccc;
+  width: 1400px;
+  height: auto;
+  font-size: 25px;
+  background-color: #ffffff;
+text-align:center;
+padding: 10px;
+}
+.foto {
+  float:  left;
+    background-color: white;
+}
+
